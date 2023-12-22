@@ -59,7 +59,7 @@ class Pelotas {
       // square(this.pos1.x, this.pos1.y, this.diam1);
       // ellipse(this.pos2.x, this.pos2.y, this.diam3, 5);
       // fill(255);
-      circle(this.pos2.x, this.pos2.y, this.diam2);
+      ellipse(this.pos2.x, this.pos2.y, this.diam2);
       fill(255, 250, 0);
       circle(this.pos1.x, this.pos1.y, this.diam1, 10);
       const c = color(255, 204, 0);
@@ -67,8 +67,8 @@ class Pelotas {
       // rect(15, 20, 35, 60);
       // Sets 'redValue' to 255.
       const redValue = red(c);
-      fill(redValue, 0, 0);
-      square(this.pos3.x, this.pos3.y, this.diam1, 1);
+      fill(redValue, 90, 0);
+      square(this.pos3.x, this.pos3.y, this.diam1, 0.01);
     }
   }
 }
